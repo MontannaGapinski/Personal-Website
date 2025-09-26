@@ -1,0 +1,23 @@
+body {
+  background-color: gainsboro;
+h1 
+{
+  color: navy;
+  position: relative;
+  right: -500px;
+}
+
+p 
+{
+  color: black;
+  position: relative;
+  right: -400px;
+}
+
+li
+{
+  color: gold;
+}
+
+}
+
