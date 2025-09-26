@@ -4,11 +4,11 @@ body {
 h1 {
   color: blue;
   position: relative;
-  right: -230px;
+  right: -430px;
 }
 p {
   color: red;
   position: relative;
-  left: -200px;
+  right: -400px;
 }
 
