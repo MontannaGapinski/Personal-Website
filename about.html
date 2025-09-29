@@ -6,9 +6,16 @@
     h1 {color: navy;
         position: relative;
         right: -620px;}
-p {color: black;}
-li {color: goldenrod;}
-li a {color: goldenrod;}
+    p {color: black;}
+    li {color: goldenrod;}
+    li a {color: goldenrod;}
+    .image-container-fit {
+        width: 300px;
+        height:200px;}
+    .image-container-fit img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;}
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>About Page</title> 
@@ -23,7 +30,9 @@ li a {color: goldenrod;}
         </ul> 
     </nav>
     <h1>About Me</h1> 
-    <img src ="pwimage.jpg" alt="Photographed Portrait of Montanna Gapinski" class="cover" width="3598" height="5397"> 
+    <div class = "image-container-fit">
+        <img src ="pwimage.jpg" alt="Photographed Portrait of Montanna Gapinski">
+    </div> 
     <p>I am Montanna Gapinski, a first-year student studying Computer Science at the University of Colorado Boulder. I am from central Minnesota and was drawn to Colorado for its strong presence in the Engineering world!</p> 
     </p>
     <p>My interest in Computer Science started from a young age when my love for video games drove me to build my own PC. From there, I embraced my problem-solving skills and hobby of playing online games and chose to apply them using CS.</p>
