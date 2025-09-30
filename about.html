@@ -5,25 +5,63 @@
     body {background-color: lightgrey;}
     h1 {color: navy;
         position: relative;
-        right: -620px;}
+        right: -620px;
+       }
     p {color: black;}
     li {color: goldenrod;}
     li a {color: goldenrod;}
-    .image-container-fit {
+    .image-container-fit 
+    {
         width: 300px;
-        height: 350px;}
-    .image-container-fit img {
+        height: 350px;
+    }
+    .image-container-fit img 
+    {
         width: 100%;
         height: 100%;
         object-fit: contain;
-        float: left;}
-    #container{
+        float: left;
+    }
+    #container
+    {
         width: 500px;
-        background: yellow;}
-    #floated{
+        background: yellow;
+    }
+    #floated
+    {
         float: left;
         width: 300px;
-        background: red;}
+        background: goldenrod;
+    }
+    
+    .image2-container-fit 
+    {
+        width: 250px;
+        height: 350px;
+    }
+    .image2-container-fit img 
+    {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        postion: relative;
+        down: -250px;
+        float: right;
+    }
+    #top
+    {
+        position: absolute;
+        display: inline-block;
+        bottom: 0px;
+        left: 0px;
+    }
+    #positionImage 
+    {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+    }
+    
     <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>About Page</title> 
@@ -46,8 +84,14 @@
         </p>
         <p>My interest in Computer Science started from a young age when my love for video games drove me to build my own PC. From there, I embraced my problem-solving skills and hobby of playing online games and chose to apply them using CS.</p>
         </p>
-        <p>In my free time, I enjoy traveling to new places and trying things I have not done before, playing video games, reading, and volunteering at the local humane society.</p> 
-        </p>
     </div> 
+    <div id="positionImage">
+        <div class ="image2-container-fit">
+        <img src="image2.heic" alt="Photo of Kayaking With a Volcano in the Back">
+        </div>
+    <div id="top">
+        <p class="topText">In my free time, I enjoy traveling to new places and trying things I have not done before, playing video games, reading, and volunteering at the local humane society.</p>
+    </div>
+    </div>
 </body> 
 </html> 
